@@ -32,9 +32,6 @@ public class Student {
             energy = 0;
             System.out.println("dead");
         }
-        else{
-            energy = energy - amount;
-        }
     }
     
     public void increaseEnergy(int amount){
@@ -42,9 +39,6 @@ public class Student {
         if(energy > 100){
             energy = 100;
             System.out.println("it cant be more than 100");
-        }
-        else{
-            energy = energy + amount;
         }
     }
 
