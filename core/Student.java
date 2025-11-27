@@ -26,7 +26,7 @@ public class Student {
         name = newName;
     }
 
-    public void decreaceEnergy(int amount){
+    public void decreaseEnergy(int amount){
         energy = energy - amount ;
         if(energy <= 0){
             energy = 0;
