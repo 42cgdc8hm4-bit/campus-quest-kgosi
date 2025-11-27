@@ -12,5 +12,6 @@ public class Cafeteria extends Location {
     public void interact(Student s) {
         System.out.println("You buy a snack and feel refreshed.");
         // TODO: s.increaseEnergy(10)
+        s.increaseEnergy(20);
     }
 }

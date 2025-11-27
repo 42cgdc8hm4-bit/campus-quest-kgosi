@@ -8,5 +8,7 @@ public class StudyEvent implements GameAction {
     public void perform(Student s) {
         System.out.println("You quietly revise your notes...");
         // TODO: increase knowledge stat in future version
+        s.increaseKnowledge(20);
+        s.decreaseEnergy(10);
     }
 }
